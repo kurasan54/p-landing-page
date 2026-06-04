@@ -28,6 +28,15 @@ body{
     
 }
 
+.content-four-subleft{
+    display:flex;
+    flex-direction: column;
+}
+
+.content-four-subright{
+    display: flex;
+}
+
 ul {
   display: flex;
   list-style-type: none;
@@ -96,4 +105,9 @@ ul {
     display: flex;
     flex-direction: column;
     padding: 100px;
+}
+
+.content-four{
+    display: flex;
+    gap: 30px;
 }
