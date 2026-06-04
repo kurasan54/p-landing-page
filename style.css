@@ -4,6 +4,7 @@ body{
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    flex:1;
     font-family: Roboto, sans-serif;
 }
 
@@ -84,6 +85,19 @@ a{
     align-self: flex-end;
 }
 
+.content-four-container{
+    background-color: #3882F6;
+    border:none;
+    border-radius: 15px;
+    display:flex;
+    flex:1;
+    min-width: 700px;
+    min-height: 60px;
+    padding: 30px 45px;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .content-four-subleft{
     display:flex;
     flex-direction: column;
@@ -93,10 +107,22 @@ a{
     display: flex;
 }
 
+.content-four-action{
+    color:#f9faf8;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.content-four-sign{
+    color:#f9faf8;
+}
+
+
+
 .content-four-button{
     background-color: #3882F6;
     border-radius: 10px;
-    border-color: #e5e7eb;
+    border: solid 2px #e5e7eb;
     color:#e5e7eb;
     width: 100px;
     height: 30px;
@@ -116,6 +142,7 @@ ul {
   background: #1f2937;
   color: white;
   display: flex;
+  flex-shrink: 0;
   align-items: center;
   justify-content: center;
   padding: 16px;
@@ -173,8 +200,8 @@ ul {
 
 .content-one{
     display:flex;
-    width: 100%;
     flex: 1;
+    width: auto;
     background: #1f2937;
     gap: 20px;
     justify-content: space-evenly;
@@ -186,7 +213,7 @@ ul {
     display:flex;
     justify-content: center;
     gap: 52px;
-    margin-bottom: 100px;
+    margin-bottom: 10px;
 }
 
 .content-three{
@@ -198,5 +225,5 @@ ul {
 
 .content-four{
     display: flex;
-    gap: 30px;
+    padding: 50px;
 }
