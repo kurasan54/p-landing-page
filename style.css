@@ -4,19 +4,39 @@ body{
   overflow: hidden;
   display: flex;
   flex-direction: column;
+  font-family: Roboto, sans-serif;
 }
 
 .header{
     height: 72px;
-    background: darkmagenta;
+    background: #1f2937;
     padding: 8px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
+}
+
+.header-logo{
+    color:white;
+    font-weight: 900;
+}
+
+a{
+    text-decoration: none;
+    color: white;
 }
 
 .leftside .rightside{
     display:flex;
+}
+
+.rightside{
+    
+}
+
+.right{
+    display: flex;
+    gap: 10px;
 }
 
 .content-one-subright .content-one-subleft{
